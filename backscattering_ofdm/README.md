@@ -7,9 +7,9 @@
 - The source code of the FreeRider system is distributed under academic license to ensure the reproducibility of our results. The source code can NOT be used for commercial purpose.
 
 ## Code
-- FPGA_code includes the code of doing codeword translation when the excitation signal is 802.11g/n WiFi signal.
+- FPGA_code repo includes the code of doing codeword translation when the excitation signal is an 802.11g/n WiFi signal.
 
-- mac_software inlcudes the software running on a MacBook Pro laptop for receiving the backscattered WiFi packets and extracting the data.
+- mac_software repo inlcudes the software running on a MacBook Pro laptop for receiving the backscattered WiFi packets and decoding the data.
 
 ## How to run?
 - Flash the FPGA Verilog code into the Igloo Nano FPGA
@@ -18,8 +18,7 @@
 
 - Run mac_software/run.sh to receive and decode the backscattered data.
 
-## References
-* Technical paper:<br>
+## Reference
 Backscatter Communication Using Commodity Radios<br>
 Pengyu Zhang, Colleen Josephson, Dinesh Bharadia, Sachin Katti<br>
 CoNEXT 2017<br>
