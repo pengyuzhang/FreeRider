@@ -1,0 +1,11 @@
+HelpInfo,C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\html,fpgahelp.qhc,errormessages.mp,C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\mbin\assistant
+Implementation;Synthesis;RootName:top
+Implementation;Synthesis|| MT530 ||@W:Found inferred clock pll_core|GLA_inferred_clock which controls 52 sequential elements including main_clock_0.counter[7:0]. This clock has no specified timing constraint which may adversely impact design performance. ||top.srr(136);liberoaction://cross_probe/hdl/file/'\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\synthesis\top.srr'/linenumber/136||main_clock.v(26);liberoaction://cross_probe/hdl/file/'\\vmware-host\shared folders\desktop\freerider\backscattering_bluetooth\fpga_code\hdl\main_clock.v'/linenumber/26
+Implementation;Synthesis|| MT420 ||@W:Found inferred clock pll_core|GLA_inferred_clock with period 1000.00ns. Please declare a user-defined clock on object "n:pll_core_0.GLA"||top.srr(273);liberoaction://cross_probe/hdl/file/'\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\synthesis\top.srr'/linenumber/273||null;null
+Implementation;Synthesis|| MT320 ||@N: This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.||top.srr(289);liberoaction://cross_probe/hdl/file/'\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\synthesis\top.srr'/linenumber/289||null;null
+Implementation;Synthesis|| MT322 ||@N: Clock constraints include only register-to-register paths associated with each individual clock.||top.srr(291);liberoaction://cross_probe/hdl/file/'\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\synthesis\top.srr'/linenumber/291||null;null
+Implementation;Compile;RootName:top
+Implementation;Compile||(null)||Please refer to the log file for details about 5 Warning(s) , 1 Info(s)||top_compile_log.rpt;liberoaction://open_report/file/top_compile_log.rpt||(null);(null)
+Implementation;Place and Route;RootName:top
+Implementation;Place and Route||(null)||Please refer to the log file for details about 1 Info(s)||top_placeroute_log.rpt;liberoaction://open_report/file/top_placeroute_log.rpt||(null);(null)
+Implementation;Generate Bitstream;RootName:top

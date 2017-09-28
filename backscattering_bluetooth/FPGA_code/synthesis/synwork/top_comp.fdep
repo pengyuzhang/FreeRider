@@ -1,0 +1,40 @@
+#OPTIONS:"|-layerid|0|-orig_srs|\\\\vmware-host\\Shared Folders\\Desktop\\FreeRider\\backscattering_bluetooth\\FPGA_code\\synthesis\\synwork\\top_comp.srs|-top|top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|\\\\vmware-host\\Shared Folders\\Desktop\\FreeRider\\backscattering_bluetooth\\FPGA_code\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\igloo.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_ver.exe":1480007424
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\proasic\\igloo.v":1487970450
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\hypermods.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\umr_capim.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1487970586
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1487970586
+#CUR:"\\\\vmware-host\\Shared Folders\\Desktop\\FreeRider\\backscattering_bluetooth\\FPGA_code\\hdl\\main_clock.v":1461610935
+#CUR:"\\\\vmware-host\\Shared Folders\\Desktop\\FreeRider\\backscattering_bluetooth\\FPGA_code\\hdl\\modulator.v":1466099928
+#CUR:"\\\\vmware-host\\Shared Folders\\Desktop\\FreeRider\\backscattering_bluetooth\\FPGA_code\\smartgen\\pll_core\\pll_core.v":1465336587
+#CUR:"\\\\vmware-host\\Shared Folders\\Desktop\\FreeRider\\backscattering_bluetooth\\FPGA_code\\hdl\\six_hundred_khz_clock.v":1466097978
+#CUR:"\\\\vmware-host\\Shared Folders\\Desktop\\FreeRider\\backscattering_bluetooth\\FPGA_code\\hdl\\ten_mhz_clock.v":1467411657
+#CUR:"\\\\vmware-host\\Shared Folders\\Desktop\\FreeRider\\backscattering_bluetooth\\FPGA_code\\component\\work\\top\\top.v":1506630687
+0			"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\main_clock.v" verilog
+1			"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\modulator.v" verilog
+2			"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\smartgen\pll_core\pll_core.v" verilog
+3			"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\six_hundred_khz_clock.v" verilog
+4			"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\ten_mhz_clock.v" verilog
+5			"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\component\work\top\top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 4 3 2 1 0
+#Dependency Lists(Users Of)
+0 5
+1 5
+2 5
+3 5
+4 5
+5 -1
+#Design Unit to File Association
+module work top 5
+module work ten_mhz_clock 4
+module work six_hundred_khz_clock 3
+module work pll_core 2
+module work modulator 1
+module work main_clock 0

@@ -1,0 +1,23 @@
+Microsemi Libero Software
+Version: 11.5.0.26
+Release: v11.5
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'Z:\fpga_vision\zigbee_backscatter\designer'
+Info: The design top.adb was last modified by software version 11.5.0.26.
+Opened an existing Libero design top.adb.
+
+The Execute Script command succeeded ( 00:00:22 )
+Checking for software updates...
+Design saved to file Z:\fpga_vision\zigbee_backscatter\designer\impl1\top.adb.
+Wrote pin report to file:
+Z:\fpga_vision\zigbee_backscatter\designer\impl1\Top_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file:
+Z:\fpga_vision\zigbee_backscatter\designer\impl1\Top_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:02 )
+Design closed.
+

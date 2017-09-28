@@ -1,0 +1,52 @@
+Target Part: AGLN250V2_VQFP100_STD
+Report for cell top.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     2      1.0        2.0
+              AND3     6      1.0        6.0
+               AO1     3      1.0        3.0
+              AOI1     1      1.0        1.0
+              AX1C     9      1.0        9.0
+               GND     6      0.0        0.0
+              NOR2     4      1.0        4.0
+             NOR2A     7      1.0        7.0
+             NOR2B    40      1.0       40.0
+              NOR3     1      1.0        1.0
+             NOR3A     4      1.0        4.0
+             NOR3B     1      1.0        1.0
+             NOR3C    10      1.0       10.0
+               OA1     2      1.0        2.0
+               OR2     3      1.0        3.0
+              OR2B     1      1.0        1.0
+               OR3     5      1.0        5.0
+              OR3B     1      1.0        1.0
+               PLL     1      0.0        0.0
+            PLLINT     1      0.0        0.0
+               VCC     6      0.0        0.0
+               XA1    24      1.0       24.0
+              XOR2    12      1.0       12.0
+
+
+            DFN1C0    49      1.0       49.0
+          DFN1E0C0     1      1.0        1.0
+          DFN1E0P0     1      1.0        1.0
+            DFN1P0     1      1.0        1.0
+                   -----          ----------
+             TOTAL   202               188.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     2
+            OUTBUF     4
+                   -----
+             TOTAL     7
+
+
+Core Cells         : 188 of 6144 (3%)
+IO Cells           : 7
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

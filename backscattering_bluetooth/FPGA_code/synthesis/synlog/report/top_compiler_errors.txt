@@ -1,0 +1,2 @@
+@E: CL123 :"Z:\fpga_vision\ble_backscatter\hdl\six_hundred_khz_clock.v":26:0:26:5|Logic for counter[11:0] does not match a standard flip-flop
+

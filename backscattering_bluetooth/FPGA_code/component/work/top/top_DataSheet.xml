@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>top</header>
+  <project-settings>
+    <fam>IGLOO</fam>
+    <die>AGLN250V2</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.2</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>\\vmware-host/Shared Folders/Desktop/FreeRider/backscattering_bluetooth/FPGA_code/component/work/top</location>
+    <state>GENERATED ( Thu Sep 28 13:31:28 2017 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\component\work\top\top.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\clock_divider.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\counter_tmp.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\data_dqpsk_generator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\data_rate.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\dqpsk_modulator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\main_clock.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\modulator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\phaser_modulator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\rf_logic_test_module.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\sigen_trigger.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\six_hundred_khz_clock.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\ten_mhz_clock.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\trigger_signal_gen.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\two_mhz_clock.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\smartgen\delay\delay.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\smartgen\delay_five_ns\delay_five_ns.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\smartgen\pll_core\pll_core.v</file>
+  </fileset>
+  <io>
+    <port-name>Y</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>GLA</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>RSS_EN</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>reset</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>output_signal</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>trigger_signal</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>clock</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>AND2</core-exttype>
+    <core-name>AND2_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>main_clock</core-exttype>
+    <core-location>hdl\main_clock.v</core-location>
+    <core-name>main_clock_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>modulator</core-exttype>
+    <core-location>hdl\modulator.v</core-location>
+    <core-name>modulator_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>OR3</core-exttype>
+    <core-name>OR3_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>\\vmware-host/Shared Folders/Desktop/FreeRider/backscattering_bluetooth/FPGA_code/smartgen/pll_core</core-location>
+    <core-name>pll_core_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>six_hundred_khz_clock</core-exttype>
+    <core-location>hdl\six_hundred_khz_clock.v</core-location>
+    <core-name>six_hundred_khz_clock_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>ten_mhz_clock</core-exttype>
+    <core-location>hdl\ten_mhz_clock.v</core-location>
+    <core-name>ten_mhz_clock_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for top</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

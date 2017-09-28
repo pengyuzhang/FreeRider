@@ -1,0 +1,9 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF238 :"\\vmware-host\shared folders\desktop\freerider\backscattering_bluetooth\fpga_code\hdl\main_clock.v":42:23:42:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
+@N: MO231 :"\\vmware-host\shared folders\desktop\freerider\backscattering_bluetooth\fpga_code\hdl\modulator.v":26:0:26:5|Found counter in view:work.modulator(verilog) instance clock_counter[15:0] 
+@N: MO231 :"\\vmware-host\shared folders\desktop\freerider\backscattering_bluetooth\fpga_code\hdl\six_hundred_khz_clock.v":26:0:26:5|Found counter in view:work.six_hundred_khz_clock(verilog) instance counter[11:0] 
+@N: MO231 :"\\vmware-host\shared folders\desktop\freerider\backscattering_bluetooth\fpga_code\hdl\ten_mhz_clock.v":26:0:26:5|Found counter in view:work.ten_mhz_clock(verilog) instance counter[11:0] 
+@N: FP130 |Promoting Net reset_c on CLKBUF  reset_pad 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

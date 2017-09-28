@@ -1,0 +1,2 @@
+@E: CL123 :"Z:\fpga_vision\fs_backscatter\hdl\modulator.v":27:0:27:5|Logic for output_signal does not match a standard flip-flop
+

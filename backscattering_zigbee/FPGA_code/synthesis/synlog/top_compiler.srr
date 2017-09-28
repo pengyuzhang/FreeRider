@@ -1,0 +1,88 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\data_loader.v" (library work)
+@I::"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\data_rate.v" (library work)
+@I::"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\main_clock.v" (library work)
+@I::"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\modulator.v" (library work)
+@I::"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\smartgen\pll_core\pll_core.v" (library work)
+@I::"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\ten_mhz_clock.v" (library work)
+@I::"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\component\work\top\top.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":20:7:20:10|Synthesizing module AND3 in library work.
+
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\data_loader.v":20:7:20:17|Synthesizing module data_loader in library work.
+
+@N: CG179 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\data_loader.v":43:23:43:29|Removing redundant assignment.
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\data_rate.v":20:7:20:15|Synthesizing module data_rate in library work.
+
+@N: CG179 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\data_rate.v":43:32:43:47|Removing redundant assignment.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\main_clock.v":20:7:20:16|Synthesizing module main_clock in library work.
+
+@N: CG179 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\main_clock.v":43:25:43:33|Removing redundant assignment.
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\modulator.v":20:7:20:15|Synthesizing module modulator in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1464:7:1464:9|Synthesizing module OR2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1482:7:1482:9|Synthesizing module OR3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core in library work.
+
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\ten_mhz_clock.v":20:7:20:19|Synthesizing module ten_mhz_clock in library work.
+
+@N: CG179 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\hdl\ten_mhz_clock.v":43:25:43:33|Removing redundant assignment.
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_zigbee\FPGA_code\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 28 13:48:10 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 28 13:48:10 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Sep 28 13:48:10 2017
+
+###########################################################]

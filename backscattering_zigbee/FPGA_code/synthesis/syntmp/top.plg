@@ -1,0 +1,20 @@
+@P:  Worst Slack : 962.738
+@P:  pll_core|GLA_inferred_clock - Estimated Frequency : 57.0 MHz
+@P:  pll_core|GLA_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  pll_core|GLA_inferred_clock - Estimated Period : 17.532
+@P:  pll_core|GLA_inferred_clock - Requested Period : 1000.000
+@P:  pll_core|GLA_inferred_clock - Slack : 982.468
+@P:  ten_mhz_clock|clock_out_inferred_clock - Estimated Frequency : 26.8 MHz
+@P:  ten_mhz_clock|clock_out_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ten_mhz_clock|clock_out_inferred_clock - Estimated Period : 37.262
+@P:  ten_mhz_clock|clock_out_inferred_clock - Requested Period : 1000.000
+@P:  ten_mhz_clock|clock_out_inferred_clock - Slack : 962.738
+@P:  Total Area : 255.0
+@P:  Total Area : 50.0
+@P:  Total Area : 0.0
+@P:  Total Area : 65.0
+@P:  Total Area : 32.0
+@P:  Total Area : 51.0
+@P:  Total Area : 46.0
+@P:  Total Area : 255.0
+@P:  CPU Time : 0h:00m:01s

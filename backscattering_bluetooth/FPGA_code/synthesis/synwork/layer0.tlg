@@ -1,0 +1,28 @@
+Selecting top level module top
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2:7:2:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\main_clock.v":20:7:20:16|Synthesizing module main_clock in library work.
+
+@N: CG179 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\main_clock.v":43:25:43:33|Removing redundant assignment.
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\modulator.v":20:7:20:15|Synthesizing module modulator in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1482:7:1482:9|Synthesizing module OR3 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":2447:7:2447:9|Synthesizing module PLL in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":276:7:276:12|Synthesizing module PLLINT in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\igloo.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\smartgen\pll_core\pll_core.v":5:7:5:14|Synthesizing module pll_core in library work.
+
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\six_hundred_khz_clock.v":20:7:20:27|Synthesizing module six_hundred_khz_clock in library work.
+
+@N: CG179 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\six_hundred_khz_clock.v":43:25:43:33|Removing redundant assignment.
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\ten_mhz_clock.v":20:7:20:19|Synthesizing module ten_mhz_clock in library work.
+
+@N: CG179 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\hdl\ten_mhz_clock.v":43:25:43:33|Removing redundant assignment.
+@N: CG364 :"\\vmware-host\Shared Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\component\work\top\top.v":9:7:9:9|Synthesizing module top in library work.
+

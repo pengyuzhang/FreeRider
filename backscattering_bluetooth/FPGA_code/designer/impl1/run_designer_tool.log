@@ -1,0 +1,26 @@
+Microsemi Libero Software
+Version: 11.8.0.26
+Release: v11.8
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to '\\vmware-host\Shared
+Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\designer'
+Info: The design top.adb was last modified by software version 11.5.0.26.
+Opened an existing Libero design top.adb.
+
+The Execute Script command succeeded ( 00:00:36 )
+Design saved to file \\vmware-host\Shared
+Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\designer\impl1\top.adb.
+Wrote pin report to file: \\vmware-host\Shared
+Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\designer\impl1\Top_report_pin_byna\
+me.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: \\vmware-host\Shared
+Folders\Desktop\FreeRider\backscattering_bluetooth\FPGA_code\designer\impl1\Top_report_pin_bynu\
+mber.txt
+
+The Report command succeeded ( 00:00:00 )
+
+The Execute Script command succeeded ( 00:00:01 )
+Design closed.
+
