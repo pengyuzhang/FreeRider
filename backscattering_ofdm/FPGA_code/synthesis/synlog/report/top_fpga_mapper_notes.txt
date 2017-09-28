@@ -1,0 +1,10 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"\\vmware-host\shared folders\desktop\freerider\ofdm_backscatter\hdl\data_source.v":27:0:27:5|Found counter in view:work.data_source(verilog) instance counter[15:0] 
+@N: MF238 :"\\vmware-host\shared folders\desktop\freerider\ofdm_backscatter\hdl\main_clock.v":42:23:42:32|Found 8-bit incrementor, 'un5_counter_1[7:0]'
+@N: MO231 :"\\vmware-host\shared folders\desktop\freerider\ofdm_backscatter\hdl\modulator.v":27:0:27:5|Found counter in view:work.modulator(verilog) instance clock_counter[15:0] 
+@N: MO231 :"\\vmware-host\shared folders\desktop\freerider\ofdm_backscatter\hdl\modulator.v":27:0:27:5|Found counter in view:work.modulator(verilog) instance counter[5:0] 
+@N: FP130 |Promoting Net signal_into_switch_net_0 on CLKINT  main_clock_0.clock_out_inferred_clock 
+@N: FP130 |Promoting Net reset_c on CLKINT  I_18 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

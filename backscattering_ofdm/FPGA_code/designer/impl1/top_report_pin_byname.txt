@@ -1,0 +1,24 @@
+*****************************************************************
+Pin Report - Date: Thu Sep 28 11:36:27 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.8
+Version: 11.8.0.26
+Design Name: Top
+Family: IGLOO
+Die: AGLN250V2
+Package: 100 VQFP
+*****************************************************************
+
+-----------------------------------------------------------------
+Flash*Freeze information
+        Pin name  : 27
+        Pin usage : Available as a regular pin
+-----------------------------------------------------------------
+
+Port               |Pin |Fixed |Function      |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Output Load (pF) |Use I/O Reg |Hot Swappable |Schmitt Trigger |Hold previous I/O state in Flash*Freeze mode |
+-------------------|----|------|--------------|---------|------------------|-----|--------------|-----------------|------------|--------------|----------------|---------------------------------------------|
+clock               15   Yes    GFA1/IO58RSB3  LVCMOS12  ---                ---   None           ---               No           No             No               No
+reset               10   Yes    GFB1/IO60RSB3  LVCMOS12  ---                ---   None           ---               No           No             No               No
+RSS_EN              96   Yes    GAB0/IO02RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+signal_into_switch  98   Yes    GAA0/IO00RSB0  LVCMOS12  2                  High  None           5                 No           No             ---              No
+trigger_signal      97   Yes    GAA1/IO01RSB0  LVCMOS12  ---                ---   None           ---               No           No             No               No

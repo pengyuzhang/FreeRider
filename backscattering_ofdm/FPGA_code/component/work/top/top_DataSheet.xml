@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>top</header>
+  <project-settings>
+    <fam>IGLOO</fam>
+    <die>AGLN250V2</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.2</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>\\vmware-host/Shared Folders/Desktop/FreeRider/ofdm_backscatter/component/work/top</location>
+    <state>GENERATED ( Thu Sep 28 11:34:52 2017 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\component\work\top\top.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\clock_divider.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\counter_tmp.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\data_dqpsk_generator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\data_rate.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\data_source.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\dbpsk_modulator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\dqpsk_modulator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\main_clock.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\modulator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\phaser_modulator.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\sigen_trigger.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\ten_mhz_clock.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\trigger_signal_gen.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\two_mhz_clock.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\hdl\whitening.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\smartgen\delay\delay.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\smartgen\delay_five_ns\delay_five_ns.v</file>
+    <file>\\vmware-host\Shared Folders\Desktop\FreeRider\ofdm_backscatter\smartgen\pll_core\pll_core.v</file>
+  </fileset>
+  <io>
+    <port-name>reset</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>signal_into_switch</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>trigger_signal</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>clock</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <io>
+    <port-name>RSS_EN</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS12</io-standard>
+  </io>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>AND2</core-exttype>
+    <core-name>AND2_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>AND2</core-exttype>
+    <core-name>AND2_1</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>AND2</core-exttype>
+    <core-name>AND2_2</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>AND2</core-exttype>
+    <core-name>AND2_3</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>data_source</core-exttype>
+    <core-location>hdl\data_source.v</core-location>
+    <core-name>data_source_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INV</core-exttype>
+    <core-name>INV_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INV</core-exttype>
+    <core-name>INV_1</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INV</core-exttype>
+    <core-name>INV_2</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>main_clock</core-exttype>
+    <core-location>hdl\main_clock.v</core-location>
+    <core-name>main_clock_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>modulator</core-exttype>
+    <core-location>hdl\modulator.v</core-location>
+    <core-name>modulator_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>OR2</core-exttype>
+    <core-name>OR2_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>OR2</core-exttype>
+    <core-name>OR2_1</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>\\vmware-host/Shared Folders/Desktop/FreeRider/ofdm_backscatter/smartgen/pll_core</core-location>
+    <core-name>pll_core_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for top</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

@@ -1,0 +1,30 @@
+FlashPro
+Version: 11.8.0.26
+Release: v11.8
+
+Software Version: 11.8.0.26
+PDB file '\\vmware-host\Shared
+Folders\Desktop\FreeRider\ofdm_backscatter\designer\impl1\top.pdb' has been loaded successfully.
+DESIGN : Top;  CHECKSUM : FAAC;  PDB_VERSION : 1.9
+programmer 'S2012ZVMC' : FlashPro5
+Warning: The programmer with id '83583' in the project file cannot be detected and connected.
+Opened '\\vmware-host\Shared
+Folders\Desktop\FreeRider\ofdm_backscatter\designer\impl1\top_fp\top.pro'
+programmer 'S2012ZVMC' : Scan Chain...
+Warning: programmer 'S2012ZVMC' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2012ZVMC' : Scan Chain PASSED.
+programmer 'S2012ZVMC' : Executing action PROGRAM
+programmer 'S2012ZVMC' : EXPORT FSN[48] = 015722447035
+programmer 'S2012ZVMC' : Erase ...
+programmer 'S2012ZVMC' : Completed erase
+programmer 'S2012ZVMC' : EXPORT CHECKSUM[16] = faac
+programmer 'S2012ZVMC' : Programming FPGA Array
+programmer 'S2012ZVMC' : Verifying FPGA Array
+programmer 'S2012ZVMC' :         Verifying FPGA Array -- pass
+programmer 'S2012ZVMC' : Finished: Thu Sep 28 11:32:43 2017 (Elapsed time 00:01:02)
+programmer 'S2012ZVMC' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Project closed.
